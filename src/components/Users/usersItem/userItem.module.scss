@@ -1,0 +1,16 @@
+.container{
+  width: 100%;
+  padding: 15px;
+  border-bottom: 1px solid gray;
+  box-sizing: border-box;
+  font-size: 30px;
+  transition: background-color .3s ease;
+  display: grid;
+  color: #2a2828;
+  grid-template-columns: 500px 1fr;
+  &:hover{
+    background-color: rgb(250, 248, 243);
+    transition: background-color .2s ease;
+  }
+}
+  

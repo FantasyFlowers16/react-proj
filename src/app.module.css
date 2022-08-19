@@ -1,0 +1,16 @@
+a{
+  text-decoration: none
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.layout {
+  display: flex!important;
+  background: #f1f1f1;
+  overflow: hidden;
+}
+.content{
+  position: relative;
+  width: 100%;
+}

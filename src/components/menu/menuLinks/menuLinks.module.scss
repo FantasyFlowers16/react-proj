@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px
+}
+.conteinerLink{
+  display: flex;
+  padding: 0 8px;
+  align-items: center;
+  &:hover{
+    background-color:beige;
+    transition:  .2s ease all;
+  }
+}
+.link{
+  text-decoration: none;
+  font-size: 24px;
+  padding: 20px 13px;
+  cursor: pointer;
+  color: black;
+  transition:  .3s ease all;
+  white-space: nowrap;
+}
+
+.image{
+  width: 40px;
+  height: 40px
+}
